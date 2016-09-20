@@ -47,6 +47,7 @@ $(document).ready(function() {
 
   // listen for submit even on form
   $createTodo.on('submit', function (event) {
+    console.log(event);
     event.preventDefault();
 
     // serialze form data
